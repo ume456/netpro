@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'Glocal View Blog Theme';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'All rights reserved@glocalview.';
 
   return {
     name,
